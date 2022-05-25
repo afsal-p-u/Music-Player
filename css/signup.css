@@ -1,0 +1,65 @@
+.container-fluid{
+    background: #111727;
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-fluid .row{
+    background: #111727;
+    width:100%;
+}
+.container-fluid .row .form{
+    background: #0b1320;
+    height:360px;
+    margin:auto;
+    box-shadow: 0 3px 8px #131312;
+    border-radius: 8px;
+}
+form .form-group input{
+    color:#fff;
+    margin-bottom: 8px;
+    border:none;
+    border-radius: 5px;
+}
+form .form-group input[type=email],
+form .form-group input[type=password],
+form .form-group input[type=text]{
+    background: #111727;
+    color:#fff;
+}
+
+form .form-group .button{
+    background: #5adae0;
+    color:blue;
+    font-size:19px;
+    font-weight: 600;
+    transition: .3s linear;
+}
+form .form-group .button:focus{
+    background: transparent;
+}
+form .form-group .button:hover{
+    background: none;
+    border: 2px solid #5adae0;
+    color:#fff;
+    font-weight: 600;
+}
+form .link{
+    padding-top:5px;
+    color:#4c5262;
+}
+form .link a{
+    color:red;
+    text-decoration: none;
+}
+.form form h2{
+    margin-top: 10px;
+    font-size:30px;
+    font-weight: 600;
+    color:#fff;
+}
+.form form p{
+    color:#4c5262;
+}
